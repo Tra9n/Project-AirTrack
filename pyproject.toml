@@ -1,0 +1,14 @@
+[project]
+name = "project-airtrack"
+version = "1.0.0"
+description = "Курсовая работа: мониторинг самолётов через API"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]        
+addopts = "-v"
